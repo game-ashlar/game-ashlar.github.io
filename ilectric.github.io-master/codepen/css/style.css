@@ -1,0 +1,62 @@
+body {
+  font-family: 'Fjalla One', sans-serif;
+  background: url("http://www.imgbase.info/images/safe-wallpapers/digital_art/1_miscellaneous_digital_art/19070_1_miscellaneous_digital_art_black-white.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: green;
+  font-size: 50px;
+  font-family: courier;
+}
+
+img {
+  width: 300px;
+  height: 150px;
+}
+
+.whatevs {
+  margin: 0 auto;
+  text-align: center;
+}
+
+pre {
+  color: green;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  text-align: justified;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: green;
+}
+
+#thecabbage {
+  position: relative;
+  animation: thecabbage 5s infinite
+}
+
+@-webkit-keyframes thecabbage {
+  0% {
+  top: 15%;
+  left: 15%;
+  }
+  25% {
+  top: 5%;
+  left: 85%;}
+  50% {
+  top: 75%;
+  left: 90%;
+  }
+  75% {
+  top: 85%;
+  left: 5%;
+    
+  } 
+  100% {
+  top:25px;
+  left: 25px;
+    
+  }
