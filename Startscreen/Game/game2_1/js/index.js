@@ -129,7 +129,7 @@ $(document).ready(function() {
           $("#hlth40pc").hide();
         } else if (health == 0) {
           $("#healthbar").hide();
-       window.location.href="http://game-ashlar.github.io/End_Screen/index.html";
+       window.location.href="http://game-ashlar.github.io/Startscreen/End_screen/index.html";
         } else {}
       }, 2000);
       return true;
