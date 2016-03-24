@@ -49,8 +49,8 @@
 }
 
 .enemy {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-image: url("http://res.cloudinary.com/ashlarsprites/image/upload/a_273/v1458796544/char6_nxnfjo.png");
   background-size: cover;
   position: absolute;
