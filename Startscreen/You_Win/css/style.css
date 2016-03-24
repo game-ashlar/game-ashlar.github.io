@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://traveling4work.files.wordpress.com/2013/02/puerto-rico-cave-entrance-2_2011-10-23.jpg");
+  background-size: cover;
+  background-position: cover;
+  background-repeat:no-repeat;
+  font-family: monospace;
+}
+
+.titleContent {
+  margin: 10% auto;
+  text-align: center;
+}
+
+.splashTitle {
+  color: #fff;
+  font-size: 8em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+  font-family: 'Lora', serif;
+}
+
+.button1 {
+  border: 10px solid black;
+  color: black;
+  padding: 20px 50px;
+  font-size: 5em;
+  text-decoration: none;
+  background-color: 	#708090;
+  box-shadow: 15px 15px 80px #555;
+  font-family: 'Lora', serif;
+  position: absolute;
+  left:50%;
+  top:60%;
+  margin-left:-150px;
+}
+
+.button2 {
+  border: 10px solid #8B0000;
+  color: #8B0000;
+  padding: 20px 50px;
+  font-size: 5em;
+  text-decoration: none;
+  background-color: #DC143C;
+  box-shadow: 15px 15px 80px #555;
+  font-family: 'Lora', serif;
+  position: absolute;
+  top:85%;
+  margin-left:-48px;
+}
+
+.button1:hover {
+  background-color: grey;
+  color: darkgrey;
+}
+
+.button2:hover {
+  background-color: #A52A2A;
+  color: #B22222;
+}
+
+/*Shit below governs the Explore screen*/
+
+#exploreBody {
+  background-image: url("https://traveling4work.files.wordpress.com/2013/02/puerto-rico-cave-entrance-2_2011-10-23.jpg");
+  background-position: bottom center;
+}
+
+#logo {
+  width: 30%
+}
+
+
+#mage {
+  position: absolute;
+  left:0%;
+}
+
+#archer {
+  position: relative;
+  left: 35%;
+  top: 10%;
+  
+}
