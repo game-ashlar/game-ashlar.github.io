@@ -1,0 +1,59 @@
+body {text-align: center;
+font-size: 200%;
+font-family: 'Lora', serif;
+color: white;
+}
+
+div {
+  display: inline;
+}
+
+body {
+  background-image: url("http://img11.deviantart.net/b735/i/2012/300/7/c/tileable_stone_wall_texture_by_hhh316-d5j5nyu.jpg");
+  background-size: 150px;
+}
+
+
+#mage {
+  width: 20%;
+  height: 20%;
+  margin-top: 20%;
+  margin-left: 10%;
+ 
+}
+
+#archer {
+  width: 20%;
+  height: 20%;
+  margin-left: 10%;
+  margin-top: 20%;  
+}
+
+#musketeer {
+  width: 27.5%;
+  height: 20%;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+.enlarge{
+  transition-property: all;
+  transition-duration:1s;
+  transition-timing-function:linear;
+  animation: big 1s ease;
+}
+
+@keyframes big {
+  0% {
+    width: 20%;
+  }
+  
+  50% {
+    width: 30%;
+  }
+  
+  100% {
+    width: 20%;
+  }
+  
+}
