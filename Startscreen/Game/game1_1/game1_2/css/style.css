@@ -1,0 +1,175 @@
+#character {
+  background-image: url("http://res.cloudinary.com/ashlarsprites/image/upload/v1458737455/imageedit_1_9092319753_xznoop.gif");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.exit {
+  width:100px;
+  height:100px;
+  background-image: url("http://www.clipartbest.com/cliparts/yTo/rM5/yTorM58TE.gif");
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  display:none;
+}
+
+#exit-1t {
+  top: 0%;
+  left: 50%;
+  margin-top: -0px;
+  margin-left: -50px;
+}
+
+#exit-1r {
+  top: 50%;
+  left: 100%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+#exit-1b {
+  top: 100%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+#exit-1l {
+  top: 50%;
+  left: 0%;
+  margin-top: -50px;
+  margin-left: -0px;
+}
+
+.enemy {
+  width: 100px;
+  height: 100px;
+  background-image: url("http://res.cloudinary.com/ashlarsprites/image/upload/a_270/v1458796544/char13_ptckm9.png");
+  background-size: cover;
+  position: absolute;
+  top: 13%;
+  display: none;
+  transition-property: all;
+  transition-duration: 20s;
+  transition-timing-function: linear;
+  margin-top:-50px;
+  margin-left:-50px
+}
+
+.flipenemy {
+  width: 100px;
+  height: 100px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  position: absolute;
+}
+
+#flipenemy4 {
+  width: 100px;
+  height: 100px;
+}
+
+#enemy1 {
+  top: 20%;
+  left: 60.623456%;
+  position: absolute;
+  
+}
+
+#enemy2 {
+  top: 89%;
+  left: 63%;
+  position: absolute;
+}
+
+#enemy3 {
+  top: 67%;
+  left: 90%;
+  position: absolute;
+}
+
+#enemy4 {
+  top: 64%;
+  left: 16.2%;
+  position: absolute;
+}
+
+#enemy5 {
+  top: 8%;
+  left: 95%
+}
+
+#flipenemy6 {
+  width: 100px;
+  height: 100px;
+}
+/*Background*/
+body {
+  background-image: url("http://img11.deviantart.net/b735/i/2012/300/7/c/tileable_stone_wall_texture_by_hhh316-d5j5nyu.jpg");
+  background-size: 150px;
+}
+.invis{
+  opacity:0;
+}
+
+.vis {
+  opacity: 1 !important;
+}
+#healthbar{
+  width:200px;
+  height:40px;
+  border: none;
+  background-color:transparent;
+  display: inline-block;
+}
+.health{
+  width:18%;
+  height: 40px;
+  margin: 0;
+}
+#hlth20pc{
+  background-image:url("http://www.heypoorplayer.com/wp-content/uploads/2014/06/heart-e1403272720870.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin:0;
+  display:inline-block;
+}
+#hlth40pc{
+  background-image:url("http://www.heypoorplayer.com/wp-content/uploads/2014/06/heart-e1403272720870.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin:0;
+  display:inline-block;
+}
+#hlth60pc{
+  background-image:url("http://www.heypoorplayer.com/wp-content/uploads/2014/06/heart-e1403272720870.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin:0;
+  display:inline-block;
+}
+#hlth80pc{
+  background-image:url("http://www.heypoorplayer.com/wp-content/uploads/2014/06/heart-e1403272720870.png");
+  background-size:40px 40px;
+  background-size:contain;
+  margin:0;
+  display:inline-block;
+}
+#hlth100pc{
+  background-image:url("http://www.heypoorplayer.com/wp-content/uploads/2014/06/heart-e1403272720870.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin:0;
+  display:inline-block;
+}
